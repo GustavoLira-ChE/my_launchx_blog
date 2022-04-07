@@ -9,8 +9,8 @@ Te invito a conocer mis aprendizajes y leer mis experiencias.
 
 ## Mis expectativas
 
-- Mejorar el uso de Git y Github.
-- Poner en práctica mis conocimientos de las tecnologías front-end.
-- Aprender sobre tecnologías back-end y conectar. front-end y back-end.
-- Desarrollar más habilidades para el desarrollo web.
-- Dar un giro a mi carrera profesional con este gran programa **LaunchX**🚀
+1. Mejorar el uso de Git y Github
+2. Poner en práctica mis conocimientos de las tecnologías front-end
+3. Aprender sobre tecnologías back-end y conectar. front-end y back-end
+4. Desarrollar más habilidades para el desarrollo web
+5. Dar un giro a mi carrera profesional con este gran programa **LaunchX**🚀
