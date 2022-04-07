@@ -6,14 +6,23 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje Gustavo Lira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Feb 2022 18:16:21 -0600</lastBuildDate><atom:link href="https://gustavolira-che.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavolira-che.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mis expectativas</title>
+      <title>Mi ruta de aprendizaje</title>
+      <link>https://gustavolira-che.github.io/my_launchx_blog/posts/post_1/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolira-che.github.io/my_launchx_blog/posts/post_1/</guid>
+      <description>Semana de inducción En la semana de inducción vimos a Python como lenguaje de programación, si bien para mi ya era familiar programar con python y me sentía cómodo trabajando con este lenguaje aprendí cosas nuevas como usar JupyterNoteBook que fue muy interesante, también aprendí lo que es trabajar con entornos virtuales y como esto ayuda a aislar las paquetes y librerias que necesitamos en cada proyecto, para tener un orden en cada uno.</description>
+    </item>
+    
+    <item>
+      <title>La cultura en el desarrollo de software</title>
       <link>https://gustavolira-che.github.io/my_launchx_blog/posts/intro/</link>
       <pubDate>Mon, 21 Feb 2022 18:16:21 -0600</pubDate>
       
       <guid>https://gustavolira-che.github.io/my_launchx_blog/posts/intro/</guid>
-      <description>Usa este post para anotar tus expectativas de la misión.</description>
+      <description>La cultura del desarrollo de software viene acompañado de muchos aspectos, entre los que destacan los valores que tienen el programador, pues desde mi punto de vista y lo que he aprendido a través de este viaje un desarrollador debe ser honesto, responsable y perseverante, ya que el desarrollo de software viene acompañado de muchas frustaciones pero si es lo que una persona ama, esto se convertirá en un reto que hay que resolver.</description>
     </item>
     
     <item>
@@ -23,7 +32,8 @@
       
       <guid>https://gustavolira-che.github.io/my_launchx_blog/pages/about/</guid>
       <description>Quién soy? Hola, soy Gustavo, tengo 27 años.
- Estudié Ingeniería Química y desde la universidad la programación llamó mi atención. Empecé en el desarrollo web hace aproximadamente 1 año con cursos de FreeCodeCamp y otro curso muy interesante sobre CSS en JS de Josh W Comeau (curso). Además de tomar diversos cursos de Platzi. Todo esto empezó gracias a un familiar que es un gran Ingeniero de software que me ayudó en todo este proceso.</description>
+Estudié Ingeniería Química y desde la universidad la programación llamó mi atención.
+ Empecé en el desarrollo web hace aproximadamente 1 año con cursos de FreeCodeCamp y otro curso muy interesante sobre CSS en JS de Josh W Comeau (curso). Además de tomar diversos cursos de Platzi. Todo esto empezó gracias a un familiar que es un gran Ingeniero de software que me ayudó en todo este proceso.</description>
     </item>
     
   </channel>
