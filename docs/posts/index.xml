@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavolira-che.github.io/my_launchx_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Como crear un proyecto de JavaScript desde 0</title>
+      <link>https://gustavolira-che.github.io/my_launchx_blog/posts/post_2/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolira-che.github.io/my_launchx_blog/posts/post_2/</guid>
+      <description>Antes de empezar Es necesario contar con NODE.js, NPM y Git para poder hacer realizar este mini tutorial
+Elegir el lugar del repositorio Lo primero que hay que hacer es elegir donde queremos guardar nuestro proyecto de JavaScript, en este caso es importante al menos en Windows si se esta usando WSL guardar le proyecto en el &amp;ldquo;root&amp;rdquo; de ubuntu en windows, ya que esto ayuda a tener un mejor manejo del proyecto así como tener la funcionalidad de live server para proyecto de React y Vue.</description>
+    </item>
+    
+    <item>
       <title>La cultura en el desarrollo de software</title>
       <link>https://gustavolira-che.github.io/my_launchx_blog/posts/intro/</link>
       <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>

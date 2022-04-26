@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Como crear un proyecto de JavaScript desde 0 - Bitácora de Viaje Gustavo Lira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://gustavolira-che.github.io/my_launchx_blog/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.4f4767d518839223786999cdb69fc7a63791220ecccd236bc732a5f998aaee2d.css">
+  
+
+  
+    <meta name="description" content="Usando Node y Git entenderemos como configurar el inico de un proyecto"/>
+    <meta property="og:title" content="Como crear un proyecto de JavaScript desde 0"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://gustavolira-che.github.io/my_launchx_blog/posts/post_2/"/>
+    
+    <meta property="og:description" content="Usando Node y Git entenderemos como configurar el inico de un proyecto"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@GustavoLiReChE"/>
+    <meta name="twitter:creator" content="@GustavoLiReChE"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://gustavolira-che.github.io/my_launchx_blog/">Bitácora de Viaje Gustavo Lira</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-aboutme">
+                <a href="../../pages/about/">AboutMe</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Como crear un proyecto de JavaScript desde 0<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h1 id="antes-de-empezar">Antes de empezar</h1>
+<p>Es necesario contar con NODE.js, NPM y Git para poder hacer realizar este mini tutorial</p>
+<h1 id="elegir-el-lugar-del-repositorio">Elegir el lugar del repositorio</h1>
+<p>Lo primero que hay que hacer es elegir donde queremos guardar nuestro proyecto de JavaScript, en este caso es importante al menos en Windows si se esta usando WSL guardar le proyecto en el &ldquo;root&rdquo; de ubuntu en windows, ya que esto ayuda a tener un mejor manejo del proyecto así como tener la funcionalidad de live server para proyecto de React y Vue.</p>
+<h1 id="crear-la-carpeta">Crear la carpeta</h1>
+<p>Una vez elegido el lugar del proyecto, vamos a crear la carpeta del proyecto, aquí vivirán todos los archivos que tendrá el proyecto, esto se logra desde la terminal con el comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">mkdir nombre_carpeta
+</code></pre></div><h1 id="ir-a-la-carpeta-del-directorio">Ir a la carpeta del directorio</h1>
+<p>Vamos a movernos a la carpeta del proyecto y aquí desde la linea de comando vamos a ejecutar:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">git init
+</code></pre></div><p>Esto activará Git en nustro repo para poder llevar el control de versiones.
+Posteriormente vamos nuevamente en la linea de comando a ejecutar el comando siguiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">npm init
+</code></pre></div><p>Esto creará un archivo llamado <em>package.json</em> este archivo contiene información del proyecto, como lo son el nombre, versión, privacidad, autor, licencia, dependencias, etc.</p>
+<h1 id="crear-un-gitignore">Crear un .gitignore</h1>
+<p>Este archivo es importante crearlo para que git ignore cierto tipo de archivos o carpetas que no queremos que sean versionadas en el proyecto, el comando para generar este archivo es:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">touch .gitignore
+</code></pre></div><p>Este comando se ejecuta en el bash asegurandote que te encuentrás en la carpeta principal de tu proyecto o en la raiz del proyecto.
+Aquí referenciamos todos los archivos que no son necesarios en el repo para ser versionados como archivos de video, sonido, archivos de imagen pesados o la carpeta node_modules.</p>
+<h1 id="para-finalizar">Para finalizar</h1>
+<p>Es importante tener un archivo <em>index</em> donde el proyecto tendrá salida, además de configurar los distintos directorios necesarios en el proyecto como lo son test/ y app/ que tendrás las archivos de las pruebas unitarias y los archivos propios de la aplicación. Y por último recuerda ir versionando cada cambio que hagas en tu proyecto con git con los comandos:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">git add &lt;files&gt;
+git commit -m &#34;add: commit message&#34;
+</code></pre></div>
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/GustavoLiReChE" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/GustavoLira-ChE" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
