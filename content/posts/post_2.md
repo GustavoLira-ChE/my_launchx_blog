@@ -37,4 +37,8 @@ Este comando se ejecuta en el bash asegurandote que te encuentrás en la carpeta
 Aquí referenciamos todos los archivos que no son necesarios en el repo para ser versionados como archivos de video, sonido, archivos de imagen pesados o la carpeta node_modules.
 
 # Para finalizar
-Es importante tener un archivo *index* donde el proyecto tendrá salida, además de configurar los distintos directorios necesarios en el proyecto como lo son test/ y app/ que tendrás las archivos de las pruebas unitarias y los archivos propios de la aplicación.
+Es importante tener un archivo *index* donde el proyecto tendrá salida, además de configurar los distintos directorios necesarios en el proyecto como lo son test/ y app/ que tendrás las archivos de las pruebas unitarias y los archivos propios de la aplicación. Y por último recuerda ir versionando cada cambio que hagas en tu proyecto con git con los comandos:
+```
+git add <files>
+git commit -m "add: commit message"
+```
